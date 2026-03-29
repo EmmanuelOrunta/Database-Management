@@ -83,3 +83,25 @@ CREATE TABLE CAMPAIGN (
     FundraisingGoal DECIMAL(10, 2) NOT NULL CHECK (FundraisingGoal >= 0),
     AmountRaised DECIMAL(10, 2) DEFAULT 0.00 CHECK (AmountRaised >= 0),
     CONSTRAINT CHK_Campaign_Dates CHECK (EndDate >= StartDate)
+
+##🔹 Constraints Used
+Primary Keys
+Foreign Keys
+UNIQUE constraints
+CHECK constraints
+Composite keys for relationship tables
+
+---
+## 📥 Data Population
+
+### 📂 File: INSERT VALUES QUERIES.sql
+
+The database was populated with realistic sample data to simulate real-world operations.
+
+🔹 Data Includes
+Climate impacts (e.g., Sea-Level Rise, Extreme Weather)
+Environmental resources (e.g., Wildlife, Water Quality)
+Campaigns with different goals and outcomes
+Volunteers across different regions
+Donors contributing to campaigns
+🔹 Example Insert
