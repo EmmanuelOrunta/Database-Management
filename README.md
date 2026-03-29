@@ -108,3 +108,42 @@ Donors contributing to campaigns
 🔹 Example Insert
 INSERT INTO CAMPAIGN (CampaignName, StartDate, EndDate, FundraisingGoal, AmountRaised)
 VALUES ('Clean Oceans 2025', '2025-01-15', '2025-12-31', 10000.00, 8500.50);
+
+## 📊 SQL Queries (Part C)
+
+### 📂 File: PART C - SQL QUERIES.sql
+
+A set of advanced SQL queries were developed to analyse the data.
+
+🔍 Queries Implemented
+1. Top 5 Donors per Region for a Specific Campaign
+Uses ROW_NUMBER() window function
+Partitions donors by region
+
+3. Number of Campaigns per Volunteer
+Uses COUNT() and GROUP BY
+4. Active Campaigns (Wildlife / Water Focus)
+Filters campaigns still accepting donations
+5. Donors Contributing to Multiple Campaigns
+SELECT
+    D.DonorID,
+    D.FirstName,
+    D.LastName,
+    COUNT(DISTINCT DN.CampaignID) AS CampaignsContributedTo
+FROM DONOR D
+JOIN DONATION DN ON D.DonorID = DN.DonorID
+GROUP BY D.DonorID
+HAVING COUNT(DISTINCT DN.CampaignID) > 1;
+6. Average Donation per Donor
+Uses subquery with aggregation
+7. Campaigns Affected by Climate Impacts
+Joins multiple tables
+8. Volunteers in High-Value Campaigns (> $5000)
+Filters based on AmountRaised
+9. Urgent Campaigns (< 10 Days Left)
+Uses DATEDIFF() for time-based filtering
+10. Top Environmental Resources
+Ranked by campaign associations
+11. Top 3 Campaigns Summary
+Includes number of volunteers and donors
+Filters campaigns with both participants
