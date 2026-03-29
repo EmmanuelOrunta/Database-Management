@@ -57,6 +57,29 @@ The database was normalised to **Third Normal Form (3NF)**:
 The database was implemented using MySQL with the following structure:
 
 ### 🔹 Database Creation
-```sql
+
 CREATE DATABASE OruntaS00403657;
 USE OruntaS00403657;
+
+## 🔹 Tables Created
+- CLIMATE_IMPACT  
+- ENVIRONMENTAL_RESOURCE  
+- RESOURCE_IMPACT (M:N relationship)  
+- CAMPAIGN  
+- CAMPAIGN_FOCUS (M:N relationship)  
+- VOLUNTEER  
+- VOLUNTEER_ACTIVITY (M:N relationship)  
+- DONOR  
+- DONATION (M:N relationship)  
+
+---
+
+## 🔹 Example Table
+CREATE TABLE CAMPAIGN (
+    CampaignID INT PRIMARY KEY AUTO_INCREMENT,
+    CampaignName VARCHAR(255) NOT NULL UNIQUE,
+    StartDate DATE NOT NULL,
+    EndDate DATE NOT NULL,
+    FundraisingGoal DECIMAL(10, 2) NOT NULL CHECK (FundraisingGoal >= 0),
+    AmountRaised DECIMAL(10, 2) DEFAULT 0.00 CHECK (AmountRaised >= 0),
+    CONSTRAINT CHK_Campaign_Dates CHECK (EndDate >= StartDate)
