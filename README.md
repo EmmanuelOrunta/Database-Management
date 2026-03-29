@@ -109,6 +109,7 @@ Donors contributing to campaigns
 INSERT INTO CAMPAIGN (CampaignName, StartDate, EndDate, FundraisingGoal, AmountRaised)
 VALUES ('Clean Oceans 2025', '2025-01-15', '2025-12-31', 10000.00, 8500.50);
 
+---
 ## 📊 SQL Queries (Part C)
 
 ### 📂 File: PART C - SQL QUERIES.sql
@@ -125,6 +126,7 @@ Uses COUNT() and GROUP BY
 4. Active Campaigns (Wildlife / Water Focus)
 Filters campaigns still accepting donations
 5. Donors Contributing to Multiple Campaigns
+
 SELECT
     D.DonorID,
     D.FirstName,
