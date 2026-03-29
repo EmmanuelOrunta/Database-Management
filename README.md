@@ -104,4 +104,7 @@ Environmental resources (e.g., Wildlife, Water Quality)
 Campaigns with different goals and outcomes
 Volunteers across different regions
 Donors contributing to campaigns
+
 🔹 Example Insert
+INSERT INTO CAMPAIGN (CampaignName, StartDate, EndDate, FundraisingGoal, AmountRaised)
+VALUES ('Clean Oceans 2025', '2025-01-15', '2025-12-31', 10000.00, 8500.50);
