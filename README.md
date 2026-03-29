@@ -136,6 +136,7 @@ FROM DONOR D
 JOIN DONATION DN ON D.DonorID = DN.DonorID
 GROUP BY D.DonorID
 HAVING COUNT(DISTINCT DN.CampaignID) > 1;
+
 6. Average Donation per Donor
 Uses subquery with aggregation
 7. Campaigns Affected by Climate Impacts
