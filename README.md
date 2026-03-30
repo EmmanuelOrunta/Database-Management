@@ -167,3 +167,8 @@ Filters campaigns with both participants
 - Window Functions (ROW_NUMBER)
 - Subqueries
 - Data Integrity and Constraints
+
+## ⚙️ Tools & Technologies
+MySQL
+MySQL Workbench
+SQL (DDL & DML)
