@@ -162,8 +162,8 @@ Filters campaigns with both participants
 - Relational Database Design
 - Entity-Relationship Modelling
 - Normalisation (3NF)
-SQL Joins (INNER JOIN, LEFT JOIN)
-Aggregation (COUNT, AVG, SUM)
-Window Functions (ROW_NUMBER)
+- SQL Joins (INNER JOIN, LEFT JOIN)
+- Aggregation (COUNT, AVG, SUM)
+- Window Functions (ROW_NUMBER)
 Subqueries
 Data Integrity and Constraints
