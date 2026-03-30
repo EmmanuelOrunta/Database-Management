@@ -157,3 +157,13 @@ Ranked by campaign associations
 10. Top 3 Campaigns Summary
 Includes number of volunteers and donors
 Filters campaigns with both participants
+
+## 🧠 Key Concepts Applied
+- Relational Database Design
+- Entity-Relationship Modelling
+- Normalisation (3NF)
+SQL Joins (INNER JOIN, LEFT JOIN)
+Aggregation (COUNT, AVG, SUM)
+Window Functions (ROW_NUMBER)
+Subqueries
+Data Integrity and Constraints
