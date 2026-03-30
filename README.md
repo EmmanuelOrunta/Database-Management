@@ -165,5 +165,5 @@ Filters campaigns with both participants
 - SQL Joins (INNER JOIN, LEFT JOIN)
 - Aggregation (COUNT, AVG, SUM)
 - Window Functions (ROW_NUMBER)
-Subqueries
-Data Integrity and Constraints
+- Subqueries
+- Data Integrity and Constraints
