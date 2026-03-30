@@ -121,11 +121,13 @@ A set of advanced SQL queries were developed to analyse the data.
 Uses ROW_NUMBER() window function
 Partitions donors by region
 
-3. Number of Campaigns per Volunteer
+2. Number of Campaigns per Volunteer
 Uses COUNT() and GROUP BY
-4. Active Campaigns (Wildlife / Water Focus)
+
+3. Active Campaigns (Wildlife / Water Focus)
 Filters campaigns still accepting donations
-5. Donors Contributing to Multiple Campaigns
+
+4. Donors Contributing to Multiple Campaigns
 
 SELECT
     D.DonorID,
@@ -137,15 +139,19 @@ JOIN DONATION DN ON D.DonorID = DN.DonorID
 GROUP BY D.DonorID
 HAVING COUNT(DISTINCT DN.CampaignID) > 1;
 
-6. Average Donation per Donor
+5. Average Donation per Donor
 Uses subquery with aggregation
-7. Campaigns Affected by Climate Impacts
+
+6. Campaigns Affected by Climate Impacts
 Joins multiple tables
-8. Volunteers in High-Value Campaigns (> $5000)
+
+7. Volunteers in High-Value Campaigns (> $5000)
 Filters based on AmountRaised
-9. Urgent Campaigns (< 10 Days Left)
+
+8. Urgent Campaigns (< 10 Days Left)
 Uses DATEDIFF() for time-based filtering
-10. Top Environmental Resources
+
+9. Top Environmental Resources
 Ranked by campaign associations
 11. Top 3 Campaigns Summary
 Includes number of volunteers and donors
