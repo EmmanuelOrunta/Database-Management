@@ -169,6 +169,6 @@ Filters campaigns with both participants
 - Data Integrity and Constraints
 
 ## ⚙️ Tools & Technologies
-MySQL
-MySQL Workbench
-SQL (DDL & DML)
+- MySQL
+- MySQL Workbench
+- SQL (DDL & DML)
