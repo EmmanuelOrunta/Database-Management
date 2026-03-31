@@ -183,5 +183,5 @@ ER DIAGRAM - SCRIPT.sql
 - Run the data insertion script:
 INSERT VALUES QUERIES.sql
 
-Execute the query file:
+- Execute the query file:
 PART C - SQL QUERIES.sql
