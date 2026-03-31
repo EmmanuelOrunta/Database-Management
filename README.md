@@ -174,8 +174,8 @@ Filters campaigns with both participants
 - SQL (DDL & DML)
 
 ##  🚀 How to Run the Project
-Open MySQL Workbench
-Run the database script:
+- Open MySQL Workbench
+- Run the database script:
 ER DIAGRAM - SCRIPT.sql
 Run the data insertion script:
 INSERT VALUES QUERIES.sql
