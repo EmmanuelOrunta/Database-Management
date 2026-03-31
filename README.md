@@ -177,6 +177,7 @@ Filters campaigns with both participants
 - Open MySQL Workbench
   
 - Run the database script:
+
 ER DIAGRAM - SCRIPT.sql
 - Run the data insertion script:
 INSERT VALUES QUERIES.sql
