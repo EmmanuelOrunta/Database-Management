@@ -194,6 +194,6 @@ PART C - SQL QUERIES.sql
 - Advanced SQL analytics queries
 - Strong use of relational integrity
 
-👤 Author
+## 👤 Author
 Emmanuel Orunta
 Student – ITEC617 (Modern Database Management)
