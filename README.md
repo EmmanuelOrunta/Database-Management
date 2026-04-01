@@ -193,3 +193,7 @@ PART C - SQL QUERIES.sql
 - Real-world environmental data modelling
 - Advanced SQL analytics queries
 - Strong use of relational integrity
+
+👤 Author
+Emmanuel Orunta
+Student – ITEC617 (Modern Database Management)
