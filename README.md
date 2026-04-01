@@ -195,5 +195,5 @@ PART C - SQL QUERIES.sql
 - Strong use of relational integrity
 
 ## 👤 Author
-Emmanuel Orunta
-Student – ITEC617 (Modern Database Management)
+- Emmanuel Orunta
+- Student – ITEC617 (Modern Database Management)
