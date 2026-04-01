@@ -188,7 +188,7 @@ INSERT VALUES QUERIES.sql
 
 PART C - SQL QUERIES.sql
 
-📌 Project Highlights
+## 📌 Project Highlights
 - Fully normalised database (3NF)
 Real-world environmental data modelling
 Advanced SQL analytics queries
