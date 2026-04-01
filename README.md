@@ -190,6 +190,6 @@ PART C - SQL QUERIES.sql
 
 ## 📌 Project Highlights
 - Fully normalised database (3NF)
-Real-world environmental data modelling
+- Real-world environmental data modelling
 Advanced SQL analytics queries
 Strong use of relational integrity
